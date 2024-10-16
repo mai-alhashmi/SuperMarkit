@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MiUi">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="26" width="2111" height="394"/>
+    </constraints>
+    <properties/>
+    <border type="empty">
+      <size top="20" left="20" bottom="20" right="20"/>
+    </border>
+    <children>
+      <grid id="cd75c" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="86173" class="javax.swing.JLabel">
+            <constraints border-constraint="West"/>
+            <properties>
+              <background color="-3735796"/>
+              <font name="Algerian" size="16" style="1"/>
+              <foreground color="-14237901"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="5f643" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints border-constraint="Center"/>
+            <properties/>
+          </component>
+          <component id="bfee5" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints border-constraint="East"/>
+            <properties>
+              <background color="-11053852"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="cf8b2" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints border-constraint="South"/>
+            <properties>
+              <foreground color="-13030"/>
+            </properties>
+          </component>
+          <component id="c654c" class="javax.swing.JList" binding="list2" default-binding="true">
+            <constraints border-constraint="North"/>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="525af" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="200">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-1376329"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8700f" class="javax.swing.JButton" binding="button2" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15170593"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="414c1" class="javax.swing.JButton" binding="button3" default-binding="true">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15170593"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="fe550" class="javax.swing.JScrollBar" binding="scrollBar1" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="ef23b" class="javax.swing.JSpinner" binding="spinner1" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="4a29f" class="javax.swing.JTree" binding="tree1" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1376329"/>
+            </properties>
+          </component>
+          <component id="ead66" class="javax.swing.JProgressBar" binding="progressBar1" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <component id="63a73" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties/>
+      </component>
+      <component id="fe165" class="javax.swing.JTable" binding="table1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties/>
+      </component>
+      <component id="60467" class="javax.swing.JToolBar$Separator">
+        <constraints border-constraint="West"/>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
